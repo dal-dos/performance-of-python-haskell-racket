@@ -15,7 +15,7 @@ votes. If there is no other vote being casted, I assume it’s none, incrementin
 I just print all my data, except full, as I must calculate it still. To count full votes, I just check how many
 times the list of all possible votes show up in the file, then I print it. To print my data in a sorted order, I
 just sort my dictionary just before I print the whole dictionary.
-Racket
+## Racket
 Trying to stay loyal to my python implementation was insanely difficult. As it was possible,
 parsing the data into readable lists into (“A B”)->((“A”,”B”)). Also, in python, I did everything as I read
 line by line, this wasn’t possible as I read the whole file at once in Racket. In racket, implementing it the
