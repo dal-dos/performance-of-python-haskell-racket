@@ -33,14 +33,14 @@ dictionary, instead I had my list of all possible votes (“A”,”B”,”C”
 (3,2,4) and I paired them. Then to count my votes, I just checked how many times the candidate
 appeared, for none, I checked how many “none” appeared. Finally, I sorted and printed it, however, this
 time I counted my full votes just before I printed, but I already had all my data.
-##Haskell
+## Haskell
 For-loops in Haskell are non-existent, so unlike racket, where I tried to keep some for-loops like
 my mainstream implementation, I had zero for-loops, and recursion instead. I used map and filter to
 parse my data, and I used zip, but since my sort function needed the integer to be first my theoretical
 dictionary was [[1,”A”] [3,”B”]] instead. Basically, I logically followed my mainstream and racket
 implementation, but it utilized maps, filters and, lambdas instead of for loops. Then, to print my data, I
 used recursion.
-#Performance
+# Performance
 Python was 88% faster than racket and 225% faster than Haskell. Python was tested in a native
 IDE by a time function that returned the current time, then calculating this time at the end. Racket was
 also tested in a similar way, but it had a built in current-millisecond function, it was also run on a native
@@ -52,7 +52,7 @@ Ballots 10000 100000 1000000
 Racket 0.0596 0.062 0.055 0.68 0.61 0.62 6.19 6.97 6.31
 Haskell 0.12 0.13 0.11 1.14 1.12 1.15 11.28 11.25 11.19
 Python 0.071 0.076 0.072 0.38 0.39 0.4 3.49 3.46 3.44
-#Ease of development
+# Ease of development
 Python was the most enjoyable to program in, but this is heavily affected by my experience with
 python and other similar programming languages. I have a lot more experience with these languages, and
 I have done similar file-parsing, so this is a massive reason why I enjoyed it so much. I probably could have
@@ -79,7 +79,7 @@ my issues, in python I only had a single issue, and that was how to sort a dicti
 with a quick solution, and it helped me complete my solution. Racket and Haskell were not the same
 story, learning how to read files was confusing and it was hard to find examples online.
 
-#Quality of source code
+# Quality of source code
 I always considered python to have terrible readability, because it was hard to read indents, so
 looking at what function nested what code was very difficult. However, this changed when Racket came
 along. With the most lines of code, most functions, and the least readability, it was very difficult to read
