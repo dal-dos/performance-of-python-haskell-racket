@@ -1,5 +1,5 @@
-#Implementation
-##Python
+# Implementation
+## Python
 First, lets talk about implementation. In my mainstream language implementation (python) I
 first needed to get my text to parse the file contents so its readable by my code. So to do this, I split on
 every space (A B) -> (“A”,”B”), now that I have a readable line, I basically have a list with each item in the
